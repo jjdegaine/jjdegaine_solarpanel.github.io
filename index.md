@@ -7,7 +7,7 @@ html: true
 
 # localisation
 
-    Installation dans la région Valentinnoise (Drôme) dans un lieu exposé au vent (mistral)
+    Installation dans la région Valentinoise (Drôme) dans un lieu exposé au vent (mistral)
     Maison 90m² rénovée avec isolation refaite.
     Tout électrique + insert dernière génération (bois séché 3ans dans le jardin)
     DP mairie, CACSI enedis, assurance OK. Pas de consuel (non demandé par enedis)
@@ -18,7 +18,7 @@ html: true
     avec l'aide des copains pour monter les panneaux.
     fixation avec rail K2
     
-    installation à plat car zone très exposée au vent. pas d'ajout d'equerre pour une inclinaison à 30° par exemple.
+    installation à plat car zone très exposée au vent. pas d'ajout d'équerre pour une inclinaison à 30° par exemple.
     Pas d'installation sur le toit de la maison car toit refait (donc sous décennale) et ombrage par des grands arbres.
     
         1 kit oscaro fin 2019 de 4 panneaux 275W + 2 YC600
@@ -54,7 +54,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
-    2022: 2650kWh (installtion 2 derniers panneaux mi mai 2022) ==> 480€ 
+    2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
     objectif 2023 : 2800kWh ==> 600€ 
 
     suivi de production par compteur énergie avec tore: ketotek D52 2047
@@ -79,7 +79,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 # coupure secteur
 
     gestion des coupures secteur (1h à 12h de temps en temps). chauffage par cheminée, pack batterie pour les portables, 
-    camping gaz pour les reaps, ebook pour la soirée devant la cheminée. 
+    camping gaz pour les repas, ebook pour la soirée devant la cheminée. 
     Anticipation des coupures lors des épisodes neige /vent.
 
 # projet futur
@@ -91,7 +91,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
 # erreur pendant la réalisation
 
-    câblage en 4² donc reprise pour la terre en 6² aprés (nouvelle tranchée!!!)
+    câblage en 4² donc reprise pour la terre en 6² après (nouvelle tranchée!!!)
 
 
 
