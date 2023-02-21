@@ -52,12 +52,12 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     2022: 2650kWh (installtion 2 derniers panneaux mi mai 2022) ==> 480€ 
     objectif 2023 : 2800kWh ==> 600€ 
 
-    suivi de production par compteur énergie avec tore. 
+    suivi de production par compteur énergie avec tore: ketotek D52 2047
 
 # consommation
 
     en hiver (novembre à mars) : ECS, LL, LV la nuit (HC)
-    hors hiver piscine 0.9kW. ECS entre 13h et 16h (arrêt piscine entre 13h et 14h), LV, LL après 14h.
+    hors hiver piscine 0.9kW. ECS entre 13h et 16h (arrêt piscine entre 13h et 14h), LV, LL en journée.
     ECS avec régulation électrique neuf (sous garantie donc pas de routage)
 
     ~ 10000kWh avant installation
@@ -73,19 +73,20 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
 # coupure secteur
 
-    gestion des coupures secteur (1h à 12h de temps en temps). chauffage par cheminée, pack batterie pour les portables, camping gaz pour les reaps, 
-    ebook pour la soirée devant la cheminée. Anticipation des coupures lors des épisodes neige /vent.
+    gestion des coupures secteur (1h à 12h de temps en temps). chauffage par cheminée, pack batterie pour les portables, 
+    camping gaz pour les reaps, ebook pour la soirée devant la cheminée. 
+    Anticipation des coupures lors des épisodes neige /vent.
 
 # projet futur
 
-    Plus de place sur le toit de l'abri bois ou de la pergola!
+    Il ne reste plus de place sur le toit de l'abri bois ou de la pergola!
     par principe pas de batterie (amortissement, entretien).
-    étude de rentabilité à faire pour installation de panneaux verticaux. 
+    étude de rentabilité à faire pour une installation de panneaux verticaux. 
     production horaire inversée par rapport aux panneaux à plat. contrainte: vent!!!!
 
 # erreur pendant la réalisation
 
-    câblage en 4² donc reprise pour la terre en 6² aprés (nouvelle tranché!!!)
+    câblage en 4² donc reprise pour la terre en 6² aprés (nouvelle tranchée!!!)
 
 
 
