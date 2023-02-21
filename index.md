@@ -30,9 +30,9 @@ html: true
 
     suivi des micro_injecteurs par ECU-ESP32
 
-[github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
+[dépôt github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
 
-[github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)
+[wiki github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)
 
 [youtube](https://www.youtube.com/watch?v=7ZOAcrYXxbM)
 
@@ -41,7 +41,7 @@ html: true
 
     1 routeur conception perso sur la base de celui de PTWATT 
 
-[routeur](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
+[github routeur](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
 
     en hiver surplus vers radiateur électrique
     en été asservissement en température de la PAC piscine (projet été 2023: jeedom?, domoticz?)
