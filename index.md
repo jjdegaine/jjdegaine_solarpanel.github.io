@@ -9,7 +9,7 @@ html: true
 
     Installation dans la région Valentinoise (Drôme) dans un lieu exposé au vent (mistral)
     Maison 90m² rénovée avec isolation refaite.
-    Tout électrique + insert dernière génération (bois séché 3ans dans le jardin)
+    Tout électrique: ECS ;(PAC air air); insert dernière génération (bois séché 3ans dans le jardin)
     DP mairie, CACSI enedis, assurance OK. Pas de consuel (non demandé par enedis)
 
 # Panneau solaire
