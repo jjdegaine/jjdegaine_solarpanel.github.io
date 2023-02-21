@@ -22,7 +22,7 @@ html: true
     Pas d'installation sur le toit de la maison car toit refait (donc sous décennale) et ombrage par des grands arbres.
     
         1 kit oscaro fin 2019 de 4 panneaux 275W + 2 YC600
-        ajout 2 panneaux en 2021 de 2 panneaux 300Wc + 1 YC600 (osacro) => plus de place sur le toit de l'abri.
+        ajout 2 panneaux en 2021 de 2 panneaux 300Wc + 1 YC600 (oscaro) => plus de place sur le toit de l'abri.
         ajout 2 panneaux en 2022 sur pergola (toit plat) + 1 DS3 (oscaro) partiellement ombragé le matin.
 
     production sur ligne dédiée différentiel + disjoncteur via prise 230V Véhicule électrique renforcée.
