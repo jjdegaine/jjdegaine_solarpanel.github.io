@@ -22,13 +22,13 @@ html: true
     Pas d'installation sur le toit de la maison car toit refait (donc sous décennale) et ombrage par des grands arbres.
     
         1 kit oscaro fin 2019 de 4 panneaux 275W + 2 YC600
-        ajout 2 panneaux en 2021 de 2 panneaux 300Wc + 1 YC600 (oscaro) => plus de place sur le toit de l'abri.
-        ajout 2 panneaux en 2022 sur pergola (toit plat) + 1 DS3 (oscaro) partiellement ombragé le matin.
+        ajout 2 panneaux en 2021 300Wc + 1 YC600 (oscaro) => plus de place sur le toit de l'abri.
+        ajout 2 panneaux en 2022 370Wc sur pergola + 1 DS3 (oscaro) partiellement ombragé le matin.
 
-    production sur ligne dédiée différentiel + disjoncteur via prise 230V Véhicule électrique renforcée.
+    production sur ligne dédiée: différentiel + disjoncteur via prise 230V Véhicule électrique renforcée.
     parafoudre sur tableau général.
 
-    suivi des micro_injecteurs par ECU-ESP32
+    suivi des micro_injecteurs par ECU-ESP32. (pour l'instant uniquement le DS3)
 
 [dépôt github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
 
@@ -36,6 +36,7 @@ html: true
 
 [youtube](https://www.youtube.com/watch?v=7ZOAcrYXxbM)
 
+Les données de l'ESP-ECU sont récupérées dans Jeedom via un broker MQTT (Mosquitto)
 
 # routeur
 
@@ -44,7 +45,7 @@ html: true
 [github routeur](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
 
     en hiver surplus vers radiateur électrique
-    en été asservissement en température de la PAC piscine (projet été 2023: jeedom?, domoticz?)
+    en été asservissement en température de la PAC piscine (projet été 2023: jeedom)
 
 # contrat énergie (contrat PLUM via appel d'offre famille de France)
 
@@ -55,7 +56,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
-    objectif 2023 : 2800kWh ==> 600€ 
+    objectif 2023 : 2800kWh ==> 600€ (tarif edf 01/02/2023)
 
     suivi de production par compteur énergie avec tore: ketotek D52 2047
 
