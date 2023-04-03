@@ -47,6 +47,10 @@ Les données de l'ESP-ECU sont récupérées dans Jeedom via un broker MQTT (Mos
     en hiver surplus vers radiateur électrique
     en été asservissement en température de la PAC piscine (projet été 2023: jeedom)
 
+# routage sur la pompe a chaleur piscine
+
+voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
+
 # contrat énergie (contrat PLUM via appel d'offre famille de France)
 
 tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
@@ -72,7 +76,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
 # amortissement
 
-    prix de l'installation: 2700€ (non optimisé car 3 frais de livraison)
+    prix de l'installation: 2700€
     2019-2022: 1010€ puis 600€/an au tarif 1° février 2023 
     (2700-1010)/600 => 3 ans
     ROI 6 ans
