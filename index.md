@@ -45,7 +45,7 @@ Les données de l'ESP-ECU sont récupérées dans Jeedom via un broker MQTT (Mos
 [github routeur](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
 
     en hiver surplus vers radiateur électrique
-    en été asservissement en température de la PAC piscine (projet été 2023: jeedom)
+    en été asservissement en température de la PAC piscine
 
 # routage sur la pompe a chaleur piscine
 
