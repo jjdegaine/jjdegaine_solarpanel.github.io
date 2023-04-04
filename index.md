@@ -74,7 +74,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
     objectif 2023 : 2800kWh ==> 600€ (tarif edf 01/02/2023)
 
-    suivi de production par compteur énergie avec tore: ketotek D52 2047
+    suivi de production par compteur énergie avec tore: [ketotek D52 2047](https://fr.aliexpress.com/i/32916282718.html)
+
 
 ![nomimage](production_PV.jpg)
 
