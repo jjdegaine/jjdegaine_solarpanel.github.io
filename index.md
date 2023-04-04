@@ -70,6 +70,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
     suivi de production par compteur énergie avec tore: ketotek D52 2047
 
+![nomimage](production_PV.jpg)
+
 # consommation
 
     en hiver (novembre à mars) : ECS, LL, LV la nuit (HC)
@@ -108,7 +110,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     ces coupures étaient liées à une tension secteur trop élevée (>251V) même sans prodction PV.
     Enedis a réglé le problème. Depuis RAS
     voir mon post: https://www.facebook.com/groups/1099876516845266/posts/2469456369887267/?comment_id=2469470876552483&reply_comment_id=2469481526551418
-    
+
 
 
 
