@@ -20,9 +20,9 @@ html: true
 
 ![nomimage](abri bois.jpg)
  abri bois orientaion nord ouest pente quelques degrés
- 
+
 ![nomimage](pergola.jpg) 
-pergola orientation sur douest pente 8°
+pergola orientation sur ouest pente 8°
 
     installation à plat car zone très exposée au vent. pas d'ajout d'équerre pour une inclinaison à 30° par exemple.
     Pas d'installation sur le toit de la maison car toit refait (donc sous décennale) et ombrage par des grands arbres.
