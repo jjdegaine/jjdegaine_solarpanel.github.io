@@ -17,8 +17,10 @@ html: true
     installation des panneaux sur toit plat (abri pour le bois et pergola) par mes soins 
     avec l'aide des copains pour monter les panneaux.
     fixation avec rail K2
+
 ![nomimage](abri bois.jpg)
  abri bois orientaion nord ouest pente quelques degrés
+ 
 ![nomimage](pergola.jpg) 
 pergola orientation sur douest pente 8°
 
