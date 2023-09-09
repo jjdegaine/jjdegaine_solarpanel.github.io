@@ -84,7 +84,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
 ![nomimage](2023_09_production_PV.jpg)
 
-![nomimage](conso_annuelle.jpg)
+
 
 # consommation
 
@@ -95,6 +95,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     ~ 10000kWh avant installation
     ~ 7500kWh après installation PV
     objectif 2023 7000kWh
+    
+![nomimage](conso_annuelle.jpg)
 
 # amortissement
 
