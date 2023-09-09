@@ -84,6 +84,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
 ![nomimage](2023_09_production_PV.jpg)
 
+![nomimage](conso_annuelle.jpg)
+
 # consommation
 
     en hiver (novembre à mars) : ECS, LL, LV la nuit (HC)
