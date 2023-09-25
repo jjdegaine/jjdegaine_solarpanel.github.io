@@ -116,7 +116,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
     Il ne reste plus de place sur le toit de l'abri bois ou de la pergola!
     par principe pas de batterie (amortissement, entretien).
-    installation de panneaux verticaux à faire en octobre 2023. 2 panneaux 425Wc avec DS3L. 
+    installation de panneaux verticaux à faire en 2024. 2 panneaux 425Wc avec DS3L. 
     production horaire inversée par rapport aux panneaux à plat.
 
 # erreur / problème pendant la réalisation
