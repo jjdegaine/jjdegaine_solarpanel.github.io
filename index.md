@@ -68,7 +68,9 @@ Les données de l'ESP-ECU sont récupérées dans Jeedom via un broker MQTT (Mos
 
 voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
 
-# contrat énergie (contrat PLUM via appel d'offre famille de France)
+# contrat énergie 
+2018 contrat PLUM via appel d'offre famille de France
+2023 contrat octopus via appel d'offre UFC que choisir
 
 tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
