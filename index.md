@@ -94,7 +94,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 
     en hiver (novembre à mars) : ECS, LL, LV la nuit (HC)
     hors hiver piscine 0.9kW. ECS entre 13h et 16h (arrêt piscine entre 13h et 14h), LV, LL en journée.
-    ECS avec régulation électrique neuf (sous garantie donc pas de routage)
+    ECS avec régulation électronique neuf (sous garantie donc pas de routage)
 
     ~ 10000kWh avant installation
     ~ 7500kWh après installation PV
