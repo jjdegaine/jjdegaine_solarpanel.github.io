@@ -86,7 +86,7 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 [ketotek D52 2047](https://fr.aliexpress.com/i/32916282718.html)
 
 
-![nomimage](2023_09_production_PV.jpg)
+![nomimage](production_PV.jpg)
 
 
 
@@ -97,8 +97,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     ECS avec régulation électronique neuf (sous garantie donc pas de routage)
 
     ~ 10000kWh avant installation
-    ~ 7500kWh après installation PV
-    objectif 2023 7000kWh
+    ~ 7000kWh après installation PV
+    
     
 ![nomimage](conso_annuelle.jpg)
 
