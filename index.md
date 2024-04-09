@@ -79,7 +79,8 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
-    objectif 2023 : 2800kWh ==> 600€ (tarif edf 01/02/2023)
+    2023 :2485kWh ==> 570€ (tarif edf 01/02/2023) 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence
+    2024 : objectif 2700kWh avec un panneau 375Wc à la place d'un 275Wc
 
     suivi de production par compteur énergie avec tore: 
 
