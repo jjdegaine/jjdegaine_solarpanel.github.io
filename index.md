@@ -51,7 +51,7 @@ suivi des micro_injecteurs par ECU-ESP32.
 
 ![nomimage](ESP-ECU.jpg)
 
-Les données de l'ESP-ECU sont récupérées dans Jeedom via un broker MQTT (Mosquitto)
+Les données de l'ESP-ECU sont récupérées dans Home Assitant via un broker MQTT (Mosquitto)
 
 ![nomimage](jeedom.jpg)
 
@@ -72,15 +72,15 @@ voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
 2018 contrat PLUM via appel d'offre famille de France
 2023 contrat octopus via appel d'offre UFC que choisir
 
-tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
+tarif HP/ HC (limite rentable)
 
 # production
 
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
-    2023 :2485kWh ==> 570€ (tarif edf 01/02/2023) 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence
-    2024 : objectif 2700kWh avec un panneau 375Wc à la place d'un 275Wc
+    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence
+    2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara (nettoyage au retour congés)
 
     suivi de production par compteur énergie avec tore: 
 
@@ -119,16 +119,13 @@ tarif HP/ HC (limite rentable), tempo à l'étude (semble rentable)
 # projet futur
 
     Il ne reste plus de place sur le toit de l'abri bois ou de la pergola!
-    par principe pas de batterie (amortissement, entretien).
-    installation de panneaux verticaux à faire en 2024. 2 panneaux 425Wc avec DS3L. 
-    production horaire inversée par rapport aux panneaux à plat.
-
+    
 # erreur / problème pendant la réalisation
 
     câblage en 4² donc reprise pour la terre en 6² après (nouvelle tranchée!!!)
 
     lors de la mise en route de l'ESP-ECU j'ai vu des coupures de production sur le DS3, 
-    ces coupures étaient liées à une tension secteur trop élevée (>251V) même sans prodction PV.
+    ces coupures étaient liées à une tension secteur trop élevée (>251V) même sans production PV.
     Enedis a réglé le problème. Depuis RAS
     voir mon post: https://www.facebook.com/groups/1099876516845266/posts/2469456369887267/?comment_id=2469470876552483&reply_comment_id=2469481526551418
     
