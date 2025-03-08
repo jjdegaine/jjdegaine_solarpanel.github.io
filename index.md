@@ -82,8 +82,10 @@ tarif HP/ HC (limite rentable)
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
-    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence (gros orage et foudre chez le voisin)
-    2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara (nettoyage au retour congés)
+    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence 
+                                                                            (gros orage et foudre chez le voisin)
+    2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara 
+                                                                                    (nettoyage au retour congés)
 
     suivi de production par compteur énergie avec tore: 
 
