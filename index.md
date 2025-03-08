@@ -10,7 +10,7 @@ html: true
     Installation dans la région Valentinoise (Drôme) dans un lieu exposé au vent (mistral)
     Maison 90m² rénovée avec isolation refaite.
     Tout électrique: ECS ;(PAC air air); insert dernière génération (bois séché 3 ans dans le jardin)
-    DP mairie, CACSI enedis, assurance OK. Pas de consuel (non demandé par enedis)
+    DP mairie, CACSI enedis, assurance OK. Pas de consuel (non demandé par enedis à l'époque....)
 
 # Panneau solaire
 
@@ -64,6 +64,9 @@ Les données de l'ESP-ECU sont récupérées dans Home Assitant via un broker MQ
     en hiver surplus vers radiateur électrique
     en été asservissement en température de la PAC piscine
 
+    Taux d'autoconsommation 96%
+    février 2025 10900kWh produit depuis le début et 412kWh injecté (linky)
+
 # routage sur la pompe a chaleur piscine
 
 voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
@@ -79,7 +82,7 @@ tarif HP/ HC (limite rentable)
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
     2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
-    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence
+    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence (gros orage et foudre chez le voisin)
     2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara (nettoyage au retour congés)
 
     suivi de production par compteur énergie avec tore: 
@@ -118,7 +121,7 @@ tarif HP/ HC (limite rentable)
 
 # projet futur
 
-    Il ne reste plus de place sur le toit de l'abri bois ou de la pergola!
+    Il ne reste pas beaucoup de place sur le toit de l'abri bois ou de la pergola! 
     
 # erreur / problème pendant la réalisation
 
