@@ -10,7 +10,7 @@ html: true
     Installation dans la région Valentinoise (Drôme) dans un lieu exposé au vent (mistral)
     Maison 90m² rénovée avec isolation refaite.
     Tout électrique: ECS ;(PAC air air); insert dernière génération (bois séché 3 ans dans le jardin)
-    DP mairie, CACSI enedis, assurance OK. Pas de consuel (non demandé par enedis à l'époque....)
+    DP mairie, CACSI enedis, assurance OK. consuel OK 
 
 # Panneau solaire
 
@@ -30,9 +30,10 @@ pergola orientation sud ouest pente 8°
         1 kit oscaro fin 2019 de 4 panneaux 275Wc + 2 YC600 (1 panneau HS ==> remplacement 365Wc)
         ajout 2 panneaux en 2021 300Wc + 1 YC600 (oscaro) => plus de place sur le toit de l'abri.
         ajout 2 panneaux en 2022 390Wc sur pergola + 1 DS3 (oscaro) partiellement ombragé le matin.
-            Total 2570Wc
+        ajout 2 panneaux en 2025 425Wc sur pargola + 1DS3L (allo solar )partiellement ombragé le matin.
+            Total 3420Wc
 
-    production sur ligne dédiée: différentiel + disjoncteur via prise 230V Véhicule électrique renforcée.
+    production sur ligne dédiée: différentiel + disjoncteur.
     parafoudre sur tableau général.
 
 # electric wiring and radio mesh
@@ -65,7 +66,7 @@ Les données de l'ESP-ECU sont récupérées dans Home Assitant via un broker MQ
     en été asservissement en température de la PAC piscine
 
     Taux d'autoconsommation 96%
-    février 2025 10900kWh produit depuis le début et 412kWh injecté (linky)
+    Juillet 2025 12400kWh produit depuis le début et 467kWh injecté (linky)
 
 # routage sur la pompe a chaleur piscine
 
@@ -74,6 +75,7 @@ voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
 # contrat énergie 
 2018 contrat PLUM via appel d'offre famille de France
 2023 contrat octopus via appel d'offre UFC que choisir
+2025 contrat octopus via  appel d'offre UFC que choisir 
 
 tarif HP/ HC (limite rentable)
 
@@ -86,6 +88,7 @@ tarif HP/ HC (limite rentable)
                                                                             (gros orage et foudre chez le voisin)
     2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara 
                                                                                     (nettoyage au retour congés)
+    2025 (fin novembre) 2600 kWh => 600€
 
     suivi de production par compteur énergie avec tore: 
 
@@ -123,7 +126,7 @@ tarif HP/ HC (limite rentable)
 
 # projet futur
 
-    Il ne reste pas beaucoup de place sur le toit de l'abri bois ou de la pergola! 
+    Il ne reste plus de place sur le toit de l'abri bois ou de la pergola! 
     
 # erreur / problème pendant la réalisation
 
