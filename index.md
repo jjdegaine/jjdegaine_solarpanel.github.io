@@ -38,7 +38,7 @@ pergola orientation sud ouest pente 8°
 
 # electric wiring and radio mesh
 
-![nomimage](electric_wiring_and_radio_mesh.jpg)
+![nomimage](electric_wiring_and_radio_mesh_2025.jpg)
 
 # ESP-ECU
 
