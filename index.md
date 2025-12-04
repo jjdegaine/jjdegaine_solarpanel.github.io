@@ -74,10 +74,14 @@ voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
 
 # contrat énergie 
 2018 contrat PLUM via appel d'offre famille de France
-2023 contrat octopus via appel d'offre UFC que choisir
-2025 contrat octopus via  appel d'offre UFC que choisir 
 
-tarif HP/ HC (limite rentable)
+2023 contrat octopus via appel d'offre UFC que choisir
+
+2025 contrat octopus via  appel d'offre UFC que choisir HP: 0,1717€ HC: 0,1365€
+
+tarif HP/ HC (limite rentable) 
+
+
 
 # production
 
