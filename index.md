@@ -87,7 +87,7 @@ tarif HP/ HC (limite rentable)
 
     2020: 1290kWh => 230€ 
     2021: 1670kWh => 300€
-    2022: 2650kWh (installation 2 derniers panneaux mi mai 2022) ==> 480€ 
+    2022: 2650kWh (installation 2 panneaux mi mai 2022) ==> 480€ 
     2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence 
                                                                             (gros orage et foudre chez le voisin)
     2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara 
@@ -99,7 +99,7 @@ tarif HP/ HC (limite rentable)
 [ketotek D52 2047](https://fr.aliexpress.com/i/32916282718.html)
 
 
-![nomimage](production_PV.jpg)
+![nomimage](anne 2025.jpg)
 
 
 
