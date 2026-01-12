@@ -43,7 +43,7 @@ pergola orientation sud ouest pente 8°
 Suivi avec un [NUC BMAX B4PLUS](https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html)
 ![nomimage](bmax.jpg)
 
-Logiciel [Proxmox](https://www.proxmox.com/en/) à la place de Win11
+Logiciel [Proxmox](https://www.proxmox.com/en/) à la place de Win11, install avec le [guide domoblog](https://www.domo-blog.fr/comment-installer-proxmox-guide-complet-pour-virtualiser-domotique/)
 
 Domotique via [Home Assistant](https://www.home-assistant.io/)
 
