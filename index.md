@@ -39,14 +39,21 @@ pergola orientation sud ouest pente 8°
 # electric wiring and radio mesh
 
 ![nomimage](electric_wiring_and_radio_mesh_2025.jpg)
-Suivi avec un NUC BMAX B4PLUS (https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html)
-Logiciel Proxmox (https://www.proxmox.com/en/) à la place de Win11
-Domotique via Home Assistant (https://www.home-assistant.io/)
-Accès extéieur via un nom de domaine OVH (https://www.ovhcloud.com/fr/domains/)
-Gestion du nom de domaine via Yunohost (https://yunohost.org/)
-Chiffrement des l'accès extérieur via Wireguard (https://www.wireguard.com/)
 
-Installation avec les scripts (https://tteck.github.io/Proxmox/)
+Suivi avec un NUC BMAX B4PLUS https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html
+![nomimage](bmax.jpg)
+
+Logiciel Proxmox https://www.proxmox.com/en/ à la place de Win11
+
+Domotique via Home Assistant https://www.home-assistant.io/
+
+Accès extéieur via un nom de domaine OVH https://www.ovhcloud.com/fr/domains/
+
+Gestion du nom de domaine via Yunohost https://yunohost.org/
+
+Chiffrement des l'accès extérieur via Wireguard https://www.wireguard.com/
+
+Installation avec les scripts https://tteck.github.io/Proxmox/
 
 
 # ESP-ECU
