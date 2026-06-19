@@ -51,7 +51,7 @@ Accès extéieur via un nom de [domaine OVH](https://www.ovhcloud.com/fr/domains
 
 Gestion du nom de domaine via [Yunohost](https://yunohost.org/)
 
-Chiffrement des l'accès extérieur via [Wireguard](https://www.wireguard.com/)
+Chiffrement des accès extérieurs via [Wireguard](https://www.wireguard.com/)
 
 Installation avec les scripts [TTeck](https://tteck.github.io/Proxmox/)
 
