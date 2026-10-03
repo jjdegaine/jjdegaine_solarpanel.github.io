@@ -1,165 +1,159 @@
 ---
 marp: false
 theme: default
-title: Mon installation panneau solaire
+title: My solar panel installation
 html: true
 ---
 
-# localisation
+# Location
 
-    Installation dans la région Valentinoise (Drôme) dans un lieu exposé au vent (mistral)
-    Maison 90m² rénovée avec isolation refaite.
-    Tout électrique: ECS ;(PAC air air); insert dernière génération (bois séché 3 ans dans le jardin)
-    DP mairie, CACSI enedis, assurance OK. consuel OK 
+    Installation in the Valence area (Drôme, France), on a site exposed to wind (the mistral).
+    90 m² house, renovated with new insulation.
+    All-electric: domestic hot water (DHW); air-to-air heat pump; latest-generation wood insert (wood dried for 3 years in the garden).
+    Prior works declaration (town hall), Enedis CACSI (self-consumption agreement), insurance: all OK. Consuel certificate OK.
 
-# Panneau solaire
+# Solar panels
 
-    installation des panneaux sur toit plat (abri pour le bois et pergola) par mes soins 
-    avec l'aide des copains pour monter les panneaux.
-    fixation avec rail K2
+    I installed the panels myself on flat roofs (wood shed and pergola),
+    with friends helping to lift the panels into place.
+    Mounted on K2 rails.
 
 ![nomimage](abri bois.jpg)
- abri bois orientaion nord ouest pente quelques degrés
+Wood shed: north-west orientation, a few degrees of slope
 
-![nomimage](pergola.jpg) 
-pergola orientation sud ouest pente 8°
+![nomimage](pergola.jpg)
+Pergola: south-west orientation, 8° slope
 
-    installation à plat car zone très exposée au vent. pas d'ajout d'équerre pour une inclinaison à 30° par exemple.
-    Pas d'installation sur le toit de la maison car toit refait (donc sous décennale) et ombrage par des grands arbres.
-    
-        1 kit oscaro fin 2019 de 4 panneaux 275Wc + 2 YC600 (1 panneau HS ==> remplacement 365Wc)
-        ajout 2 panneaux en 2021 300Wc + 1 YC600 (oscaro) => plus de place sur le toit de l'abri.
-        ajout 2 panneaux en 2022 390Wc sur pergola + 1 DS3 (oscaro) partiellement ombragé le matin.
-        ajout 2 panneaux en 2025 425Wc sur pargola + 1DS3L (allo solar )partiellement ombragé le matin.
-            Total 3420Wc
+    Panels are installed flat because the area is very exposed to wind. No brackets added to tilt them to, say, 30°.
+    No installation on the roof of the house: the roof was redone recently (so still under the ten-year warranty) and is shaded by tall trees.
 
-    production sur ligne dédiée: différentiel + disjoncteur.
-    parafoudre sur tableau général.
+        1 Oscaro kit, end of 2019: 4 × 275 Wp panels + 2 YC600 microinverters (1 panel failed ==> replaced with a 365 Wp one)
+        2 more 300 Wp panels added in 2021 + 1 YC600 (Oscaro) => no more room on the shed roof.
+        2 more 390 Wp panels added in 2022 on the pergola + 1 DS3 (Oscaro), partially shaded in the morning.
+        2 more 425 Wp panels added in 2025 on the pergola + 1 DS3L (Allo Solar), partially shaded in the morning.
+            Total: 3,420 Wp
 
-# electric wiring and radio mesh
+    Production runs on a dedicated line: residual-current device + circuit breaker.
+    Surge arrester on the main panel.
+
+# Electric wiring and radio mesh
 
 ![nomimage](electric_wiring_and_radio_mesh_2025.jpg)
 
-Suivi avec un [NUC BMAX B4PLUS](https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html)
+Monitoring with a [BMAX B4 PLUS NUC](https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html)
 ![nomimage](bmax.jpg)
 
-Logiciel [Proxmox](https://www.proxmox.com/en/) à la place de Win11, install avec le [guide domoblog](https://www.domo-blog.fr/comment-installer-proxmox-guide-complet-pour-virtualiser-domotique/)
+[Proxmox](https://www.proxmox.com/en/) software instead of Win11, installed with the [domo-blog guide](https://www.domo-blog.fr/comment-installer-proxmox-guide-complet-pour-virtualiser-domotique/) (in French)
 
-Domotique via [Home Assistant](https://www.home-assistant.io/)
+Home automation via [Home Assistant](https://www.home-assistant.io/)
 
-Accès extéieur via un nom de [domaine OVH](https://www.ovhcloud.com/fr/domains/)
+Remote access through an [OVH domain name](https://www.ovhcloud.com/fr/domains/)
 
-Gestion du nom de domaine via [Yunohost](https://yunohost.org/)
+Domain name management via [Yunohost](https://yunohost.org/)
 
-Chiffrement des accès extérieurs via [Wireguard](https://www.wireguard.com/)
+Encryption of remote access via [WireGuard](https://www.wireguard.com/)
 
-Installation avec les scripts [TTeck](https://tteck.github.io/Proxmox/)
+Installed with the [TTeck](https://tteck.github.io/Proxmox/) scripts
 
 
 # ESP-ECU
 
-suivi des micro_injecteurs par ECU-ESP32. 
+Microinverters are monitored with an ESP32-based ECU (ESP-ECU).
 
-[dépôt github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
+[GitHub repository](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
 
-[wiki github](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)
+[GitHub wiki](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)
 
-[youtube](https://www.youtube.com/watch?v=7ZOAcrYXxbM)
+[YouTube](https://www.youtube.com/watch?v=7ZOAcrYXxbM)
 
 ![nomimage](ESP-ECU.jpg)
 
-Les données de l'ESP-ECU sont récupérées dans Home Assitant via un broker MQTT (Mosquitto)
+ESP-ECU data is pulled into Home Assistant through an MQTT broker (Mosquitto).
 
 ![nomimage](ha.jpg)
 
-# routeur
+# Router (surplus diverter)
 
-    1 routeur conception perso sur la base de celui de PTWATT 
+    1 custom-designed router, based on the PTWATT one
 
-[github routeur](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
+[Router on GitHub](https://jjdegaine.github.io/Wifi-Solar-panel-optimizer-/)
 
-    en hiver surplus vers radiateur électrique
-    en été asservissement en température de la PAC piscine
+    In winter, surplus goes to an electric radiator.
+    In summer, it drives the pool heat pump according to temperature.
 
-    Taux d'autoconsommation 96%
-    Juillet 2025 12400kWh produit depuis le début et 467kWh injecté (linky)
+    Self-consumption rate: 96%
+    July 2025: 12,400 kWh produced since the start, and 467 kWh injected into the grid (Linky meter)
 
-# routage sur la pompe a chaleur piscine
+# Diverting surplus to the pool heat pump
 
-voir mon projet [PAC](https://jjdegaine.github.io/PAC/)
+See my [heat pump project](https://jjdegaine.github.io/PAC/)
 
-# contrat énergie 
-2018 contrat PLUM via appel d'offre famille de France
+# Energy contract
 
-2023 contrat octopus via appel d'offre UFC que choisir
+2018: PLUM contract via a Familles de France group purchase
 
-2025 contrat octopus via  appel d'offre UFC que choisir HP: 0,1717€ HC: 0,1365€
+2023: Octopus contract via a UFC-Que Choisir group purchase
 
-tarif HP/ HC (limite rentable) 
+2025: Octopus contract via a UFC-Que Choisir group purchase. Peak: €0.1717/kWh, off-peak: €0.1365/kWh
+
+Peak/off-peak tariff (break-even limit)
 
 
 
-# production
+# Production
 
-    2020: 1290kWh => 230€ 
-    2021: 1670kWh => 300€
-    2022: 2650kWh (installation 2 panneaux mi mai 2022) ==> 480€ 
-    2023 :2485kWh ==> 570€ 1 panneau HS et 10 jours d'arrêt suite coupure disjoncteur différentiel pendant absence 
-                                                                            (gros orage et foudre chez le voisin)
-    2024 :2595kWh ==> 593€  1 arrêt de production pendant absence (PB secteur indépendant PV) et sable sahara 
-                                                                                    (nettoyage au retour congés)
-    2025 (fin novembre) 2600 kWh => 600€
+    2020: 1,290 kWh => €230
+    2021: 1,670 kWh => €300
+    2022: 2,650 kWh (2 panels installed mid-May 2022) ==> €480
+    2023: 2,485 kWh ==> €570. 1 panel failed and 10 days of downtime after the residual-current device tripped while I was away
+                                                                            (big storm and lightning strike at the neighbour's)
+    2024: 2,595 kWh ==> €593. 1 production stop while I was away (grid-side issue on the PV circuit) and Saharan dust
+                                                                                    (cleaned on return from holiday)
+    2025 (end of November): 2,600 kWh => €600
 
-    suivi de production par compteur énergie avec tore: 
+    Production is monitored with a toroid-based energy meter:
 
-[ketotek D52 2047](https://fr.aliexpress.com/i/32916282718.html)
+[Ketotek D52 2047](https://fr.aliexpress.com/i/32916282718.html)
 
-Production et consommation annuelle:
+Annual production and consumption:
 ![nomimage](anne 2025.jpg)
 
 
 
 
-# consommation
+# Consumption
 
-    en hiver (novembre à mars) : ECS, LL, LV la nuit (HC)
-    hors hiver piscine 0.9kW. ECS entre 13h et 16h (arrêt piscine entre 13h et 14h), LV, LL en journée.
-    ECS avec régulation électronique neuf (sous garantie donc pas de routage)
+    In winter (November to March): DHW, washing machine and dishwasher at night (off-peak hours)
+    Outside winter: pool 0.9 kW. DHW between 1 pm and 4 pm (pool stopped between 1 pm and 2 pm), dishwasher and washing machine during the day.
+    DHW uses a new electronic controller (still under warranty, so no diverting)
 
-    ~ 10000kWh avant installation
-    ~ 7000kWh après installation PV
-    
-    
+    ~10,000 kWh before the installation
+    ~7,000 kWh after the PV installation
+
+
 ![nomimage](conso_annuelle.jpg)
 
-# amortissement
+# Payback
 
-    prix de l'installation: 2700€
-    2019-2022: 1010€ puis 600€/an au tarif 1° février 2023 
-    (2700-1010)/600 => 3 ans
-    ROI 6 ans
+    Installation cost: €2,700
+    2019-2022: €1,010, then €600/year at the 1 February 2023 tariff
+    (2700-1010)/600 => 3 years
+    ROI: 6 years
 
-# coupure secteur
+# Power outages
 
-    gestion des coupures secteur (1h à 12h de temps en temps). chauffage par cheminée, pack batterie pour les portables, 
-    camping gaz pour les repas, ebook pour la soirée devant la cheminée. 
-    Anticipation des coupures lors des épisodes neige /vent.
+    Handling power outages (1 to 12 hours, from time to time): heating by fireplace, battery pack for phones,
+    camping stove for meals, e-reader for evenings by the fireplace.
+    Outages are anticipated during snow/wind episodes.
 
-# projet futur
+# Future project
 
-    Il ne reste plus de place sur le toit de l'abri bois ou de la pergola! 
-    
-# erreur / problème pendant la réalisation
+    There is no room left on the wood shed roof or the pergola!
 
-    câblage en 4² donc reprise pour la terre en 6² après (nouvelle tranchée!!!)
+# Mistakes / problems during the build
 
-    lors de la mise en route de l'ESP-ECU j'ai vu des coupures de production sur le DS3, 
-    ces coupures étaient liées à une tension secteur trop élevée (>251V) même sans production PV.
-    Enedis a réglé le problème. Depuis RAS
-    voir mon post: https://www.facebook.com/groups/1099876516845266/posts/2469456369887267/?comment_id=2469470876552483&reply_comment_id=2469481526551418
-    
+    Wiring done in 4 mm², so the earth had to be redone in 6 mm² afterwards (new trench!!!)
 
-
-
-
-
+    When I commissioned the ESP-ECU, I saw production cuts on the DS3. These were caused by grid voltage that was too high (>251 V), even without PV production.
+    Enedis fixed the problem. No issues since.
+    See my post: https://www.facebook.com/groups/1099876516845266/posts/2469456369887267/?comment_id=2469470876552483&reply_comment_id=2469481526551418
