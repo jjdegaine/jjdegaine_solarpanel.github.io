@@ -30,15 +30,16 @@ Pergola: south-west orientation, 8° slope
         1 Oscaro kit, end of 2019: 4 × 275 Wp panels + 2 YC600 microinverters (1 panel failed ==> replaced with a 365 Wp one)
         2 more 300 Wp panels added in 2021 + 1 YC600 (Oscaro) => no more room on the shed roof.
         2 more 390 Wp panels added in 2022 on the pergola + 1 DS3 (Oscaro), partially shaded in the morning.
-        2 more 425 Wp panels added in 2025 on the pergola + 1 DS3L (Allo Solar), partially shaded in the morning.
-            Total: 3,420 Wp
+        2 more 425 Wp panels added in 2025 on the pergola + 1 DS3L (Allo Solar), partially shaded in the morning. => no more room on the pergola roof.
+        2 more 500 Wp panels added in 2026 on a new pergola + 1DS3H (solar choc), 
+            Total: 4,420 Wp
 
     Production runs on a dedicated line: residual-current device + circuit breaker.
     Surge arrester on the main panel.
 
 # Electric wiring and radio mesh
 
-![nomimage](electric_wiring_and_radio_mesh_2025.jpg)
+![nomimage](electric_wiring_and_radio_mesh_2026.jpg)
 
 Monitoring with a [BMAX B4 PLUS NUC](https://fr.bmaxit.com/MaxMini-B4-Plus-pd731782388.html)
 ![nomimage](bmax.jpg)
@@ -58,15 +59,15 @@ Installed with the [TTeck](https://tteck.github.io/Proxmox/) scripts
 
 # ESP-ECU
 
-Microinverters are monitored with an ESP32-based ECU (ESP-ECU).
+Microinverters are monitored with an ESP32C6-based ECU.
 
-[GitHub repository](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3)
+[GitHub repository](https://github.com/leaberry/ESP32C6-APsystems-ECU)
 
 [GitHub wiki](https://github.com/patience4711/read-APSystems-YC600-QS1-DS3/wiki)
 
 [YouTube](https://www.youtube.com/watch?v=7ZOAcrYXxbM)
 
-![nomimage](ESP-ECU.jpg)
+![nomimage](ESP-C6-ECU.jpg)
 
 ESP-ECU data is pulled into Home Assistant through an MQTT broker (Mosquitto).
 
@@ -86,7 +87,7 @@ ESP-ECU data is pulled into Home Assistant through an MQTT broker (Mosquitto).
 
 # Diverting surplus to the pool heat pump
 
-See my [heat pump project](https://jjdegaine.github.io/PAC/)
+HA automation
 
 # Energy contract
 
@@ -148,7 +149,7 @@ Annual production and consumption:
 
 # Future project
 
-    There is no room left on the wood shed roof or the pergola!
+    Battery?
 
 # Mistakes / problems during the build
 
